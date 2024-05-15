@@ -1,7 +1,8 @@
 let button = document.getElementById("button");
 
 var textarea = document.getElementById("textarea");
-var text = document.getElementById("text");
+let text = document.getElementById("text");
+
 
 function checkInputs() {
   if (textarea.value.trim() !== "" && text.value.trim() !== "") {
