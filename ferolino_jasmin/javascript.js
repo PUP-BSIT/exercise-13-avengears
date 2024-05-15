@@ -1,8 +1,8 @@
-let button = document.getElementById("button");
+let button = document.querySelector("button");
 
-let textarea = document.getElementById("textarea");
+let textarea = document.querySelector("textarea");
 
-let text = document.getElementById("text");
+let text = document.querySelector("text");
 
 
 function checkInputs() {
