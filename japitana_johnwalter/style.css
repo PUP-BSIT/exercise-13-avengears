@@ -242,11 +242,19 @@ iframe {
       "itm6 itm6"
       "itm7 itm7";
   }
+
+  iframe {
+    width: 50%;
+  }
 }
 
 @media (max-width: 426px) {
   .container {
     display: flex;
     flex-direction: column;
+  }
+
+  iframe {
+    width: 90%;
   }
 }
