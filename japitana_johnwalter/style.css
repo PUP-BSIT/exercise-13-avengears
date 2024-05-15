@@ -122,8 +122,14 @@ button {
 }
 
 textarea {
-  width: 90%;
-  height: 20em;
+  font-size: medium;
+  width: 70%;
+  height: 10em;
+}
+
+select, option {
+  color: #000000;
+  height: 3em;
 }
 
 .name {
@@ -217,7 +223,7 @@ textarea {
   color: black;
 }
 
-.container-1 > div {
+.container-1 > div, select {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,11 +248,19 @@ iframe {
       "itm6 itm6"
       "itm7 itm7";
   }
+
+  iframe {
+    width: 50%;
+  }
 }
 
 @media (max-width: 426px) {
   .container {
     display: flex;
     flex-direction: column;
+  }
+
+  iframe {
+    width: 90%;
   }
 }
