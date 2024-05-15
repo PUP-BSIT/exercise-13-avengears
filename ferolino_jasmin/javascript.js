@@ -1,6 +1,7 @@
 let button = document.getElementById("button");
 
-var textarea = document.getElementById("textarea");
+let textarea = document.getElementById("textarea");
+
 let text = document.getElementById("text");
 
 
