@@ -7,9 +7,9 @@ let text = document.getElementById("text");
 
 function checkInputs() {
   if (textarea.value.trim() !== "" && text.value.trim() !== "") {
-    button.disabled = false; // Enable the button
+    button.disabled = false; 
   } else {
-    button.disabled = true; // Disable the button
+    button.disabled = true; 
   }
 }
 
