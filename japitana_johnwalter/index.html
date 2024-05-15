@@ -128,26 +128,31 @@
       <form class="container-1">
         <div class="name-tab">
           <label>Name: </label>
-          <input type="text" id="text_01" />
+          <input type="text" id="text_01" class="user"/>
         </div>
 
         <div class="comment-tab">
           <label>Comment</label>
-          <textarea id="textarea_01" rows="5"></textarea>
+          <textarea id="textarea_01" class="usercomment"></textarea>
         </div>
 
         <div class="button-01">
-          <button id="button_01" disabled>Comment</button>
+          <button id="button_01" type="button" disabled>Comment</button>
         </div>
+
+        <hr>
+
+        <h2>Comment Section</h2>
+        <select id="sortDropdown">
+          <option value="date-asc">Date Ascending</option>
+          <option value="date-desc">Date Descending</option>
+        </select>
+
+        <div class="comment-area"></div>
       </form>
-      <div class="comment-area">
-        <ul>
-          <li>Hope your dreams come true by:james</li>
-          <li>Goodluck to you're journey by: jasmin</li>
-          <li>jasmin Hope you'll get it! by: akisha</li>
-        </ul>
-      </div>
+      
       <script src="javascript/text_detect.js"></script>
+      <script src="javascript/comment_section.js"></script>
     </div>
 
     <div class="centralized">
