@@ -4,11 +4,11 @@ const USERID = {
   date: null,
 };
 
-const userComment = document.querySelector(".usercomment");
+const userComment = document.querySelector(".user_comment");
 const publishBtn = document.querySelector("#button_01");
 const comments = document.querySelector(".comment-area");
 const userName = document.querySelector(".user");
-const sortDropdown = document.querySelector("#sortDropdown");
+const sortDropdown = document.querySelector("#sort_ropdown");
 
 const commentsArray = [
     {
